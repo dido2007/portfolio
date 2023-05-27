@@ -15,29 +15,30 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Our <strong className="purple">Products </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few products ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Easy Eat"
+              description="Fast Book is transforming dining experiences. Walk into a restaurant, scan a QR code, select your meal, and let the kitchen do the rest. This system streamlines ordering, reduces errors,and heightens customer satisfaction. Explore a new age of dining with Easy Eat - effortless, efficient, and digital! "
+              ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="E-Comm Message Analyzer"
+              description="Introducing E-Comm Message Analyzer, a revolutionary tool reshaping e-commerce communications. Powered by advanced AI, our extension meticulously filters and prioritizes your messages, identifying urgent communications and providing strategic insights. Embrace the future of seamless, efficient communication today."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -47,8 +48,8 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Websites"
+              description="Experience the power of a personalized website with our bespoke web design services. Each site we create is a unique blend of innovative design, seamless functionality, and strategic SEO optimization. Step into the digital world with confidence as our custom websites not only impress visually, but also drive growth and enhance your online presence."
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -58,8 +59,8 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title=" Discord Bot Tailor"
+              description="Transform your community interaction with Discord Bot Tailor. We offer custom-coded Discord bots, tailored to your unique requirements. From moderation to entertainment, just tell us what you envision and we'll bring your ideal bot to life, enhancing your server's functionality and user engagement."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -69,8 +70,8 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="AppCrafters"
+              description="Bring your mobile app vision to life with us. We specialize in crafting tailor-made mobile applications that cater to your specific needs. Whether it's for Android, iOS, or cross-platform, our team will transform your idea into a powerful app, designed to engage users and elevate your digital presence."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -80,9 +81,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="YourVision Creators"
+              description="Step beyond the ordinary with us. We offer customized solutions tailored to your unique digital needs. Whether it's a specific feature, a unique web tool, or a different platform altogether, we'll turn your distinct vision into a functional, engaging reality."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />

@@ -16,15 +16,14 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET US <span className="purple"> INTRODUCE </span> OURSELVES
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            A teenage tech sensation that's transforming the world one line of code at a time.
               <br />
-              <br />I am fluent in classics like
+              <br />We've mastered the art of tech languages
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> from JavaScript to Python, with a knack for Node.js </b> ,  that's unrivaled.
               </i>
               <br />
               <br />
@@ -33,23 +32,20 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  IA.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Step into the <b className="purple">future</b>  with us - because with H&H, you're not just purchasing a service, 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  you're joining a technological revolution. 
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; 
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,7 +56,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>FIND US ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
